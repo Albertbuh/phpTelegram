@@ -1,0 +1,212 @@
+[26-Apr-2023 09:42:22 Europe/Minsk] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /var/www/test/login.php on line 61
+[13-May-2023 13:29:11 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'Messenger.Login' doesn't exist in /var/www/test/login.php:17
+Stack trace:
+#0 /var/www/test/login.php(17): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/login.php on line 17
+[13-May-2023 14:13:48 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'albertbuh' in 'field list' in /var/www/test/signup.php:12
+Stack trace:
+#0 /var/www/test/signup.php(12): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/signup.php on line 12
+[13-May-2023 14:14:45 Europe/Minsk] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /var/www/test/signup.php:22
+Stack trace:
+#0 {main}
+  thrown in /var/www/test/signup.php on line 22
+[13-May-2023 14:16:10 Europe/Minsk] PHP Warning:  Undefined variable $user_info in /var/www/test/signup.php on line 15
+[13-May-2023 14:16:10 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/signup.php on line 15
+[13-May-2023 14:16:10 Europe/Minsk] PHP Warning:  Undefined variable $user_info in /var/www/test/signup.php on line 15
+[13-May-2023 14:16:10 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/signup.php on line 15
+[13-May-2023 14:17:26 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/signup.php on line 12
+[13-May-2023 14:32:46 Europe/Minsk] PHP Warning:  Undefined variable $a in /var/www/test/authorization.php on line 30
+[13-May-2023 14:41:10 Europe/Minsk] PHP Warning:  Undefined variable $type in /var/www/test/authorization.php on line 33
+[13-May-2023 14:41:10 Europe/Minsk] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in /var/www/test/authorization.php on line 33
+[13-May-2023 14:43:01 Europe/Minsk] PHP Warning:  Array to string conversion in /var/www/test/authorization.php on line 33
+[13-May-2023 14:43:01 Europe/Minsk] PHP Warning:  Undefined variable $Array in /var/www/test/authorization.php on line 33
+[13-May-2023 14:43:01 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/authorization.php on line 33
+[13-May-2023 14:43:01 Europe/Minsk] PHP Deprecated:  setcookie(): Passing null to parameter #2 ($value) of type string is deprecated in /var/www/test/authorization.php on line 33
+[18-May-2023 10:42:07 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/signup.php on line 12
+[18-May-2023 10:43:45 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/signup.php on line 12
+[18-May-2023 10:46:59 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/signup.php on line 12
+[30-May-2023 14:02:54 Europe/Minsk] PHP Warning:  Undefined variable $result in /var/www/test/chatContainer.php on line 14
+[30-May-2023 14:02:54 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, null given in /var/www/test/chatContainer.php:14
+Stack trace:
+#0 /var/www/test/chatContainer.php(14): mysqli_fetch_array()
+#1 /var/www/test/index.php(51): include('...')
+#2 {main}
+  thrown in /var/www/test/chatContainer.php on line 14
+[30-May-2023 14:04:51 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/signup.php on line 12
+[30-May-2023 16:28:17 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:28:17 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:28:17 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:28:17 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:28:39 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:28:39 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:28:39 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:28:39 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:43 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:43 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:43 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:43 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:44 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:45 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:45 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:45 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:45 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:29:46 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:30:18 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:30:18 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:37:10 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:37:10 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:37:10 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:37:10 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:37:19 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 32
+[30-May-2023 16:37:19 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 32
+[30-May-2023 16:37:19 Europe/Minsk] PHP Warning:  Undefined variable $GLOBAL in /var/www/test/index.php on line 33
+[30-May-2023 16:37:19 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/index.php on line 33
+[30-May-2023 16:40:26 Europe/Minsk] PHP Warning:  Undefined global variable $sender in /var/www/test/index.php on line 32
+[30-May-2023 16:40:26 Europe/Minsk] PHP Warning:  Undefined global variable $receiver in /var/www/test/index.php on line 33
+[30-May-2023 17:13:17 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:17 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:18 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:19 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:19 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:19 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:13:19 Europe/Minsk] PHP Warning:  Undefined array key "timespan" in /var/www/test/index.php on line 142
+[30-May-2023 17:51:19 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/sendMessage.php on line 21
+[30-May-2023 17:54:28 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '')' at line 2 in /var/www/test/sendMessage.php:14
+Stack trace:
+#0 /var/www/test/sendMessage.php(14): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/sendMessage.php on line 14
+[30-May-2023 17:54:58 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:55:07 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:57:28 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:57:55 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:58:13 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:58:26 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 17:59:29 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 18:04:04 Europe/Minsk] PHP Warning:  Undefined variable $receiver in /var/www/test/sendMessage.php on line 4
+[30-May-2023 18:04:04 Europe/Minsk] PHP Warning:  Undefined variable $receiver in /var/www/test/sendMessage.php on line 4
+[30-May-2023 18:04:05 Europe/Minsk] PHP Warning:  Undefined variable $receiver in /var/www/test/sendMessage.php on line 4
+[30-May-2023 18:05:48 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 18:06:07 Europe/Minsk] PHP Warning:  Undefined variable $receiver in /var/www/test/sendMessage.php on line 4
+[30-May-2023 18:06:07 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2023-05-30 06:06:07 GMT' for column 'timestamp' at row 1 in /var/www/test/sendMessage.php:17
+Stack trace:
+#0 /var/www/test/sendMessage.php(17): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/sendMessage.php on line 17
+[30-May-2023 18:06:11 Europe/Minsk] PHP Warning:  Undefined variable $receiver in /var/www/test/sendMessage.php on line 4
+[30-May-2023 18:06:11 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2023-05-30 06:06:11 GMT' for column 'timestamp' at row 1 in /var/www/test/sendMessage.php:17
+Stack trace:
+#0 /var/www/test/sendMessage.php(17): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/sendMessage.php on line 17
+[30-May-2023 18:06:48 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 89
+[30-May-2023 18:06:55 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2023-05-30 06:06:55 GMT' for column 'timestamp' at row 1 in /var/www/test/sendMessage.php:18
+Stack trace:
+#0 /var/www/test/sendMessage.php(18): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/sendMessage.php on line 18
+[30-May-2023 18:06:59 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2023-05-30 06:06:59 GMT' for column 'timestamp' at row 1 in /var/www/test/sendMessage.php:18
+Stack trace:
+#0 /var/www/test/sendMessage.php(18): mysqli_query()
+#1 {main}
+  thrown in /var/www/test/sendMessage.php on line 18
+[30-May-2023 18:18:24 Europe/Minsk] PHP Warning:  Undefined variable $timestamp in /var/www/test/showMessages.php on line 69
+[30-May-2023 18:18:24 Europe/Minsk] PHP Warning:  Undefined variable $timestamp in /var/www/test/showMessages.php on line 69
+[30-May-2023 18:18:24 Europe/Minsk] PHP Warning:  Undefined variable $timestamp in /var/www/test/showMessages.php on line 69
+[30-May-2023 18:18:24 Europe/Minsk] PHP Warning:  Undefined variable $timestamp in /var/www/test/showMessages.php on line 69
+[30-May-2023 18:18:24 Europe/Minsk] PHP Warning:  Undefined variable $timestamp in /var/www/test/showMessages.php on line 69
+[30-May-2023 18:33:44 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 93
+[30-May-2023 18:34:22 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 93
+[30-May-2023 18:35:00 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 93
+[30-May-2023 20:18:12 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 26
+[30-May-2023 20:18:12 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:18:15 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 26
+[30-May-2023 20:18:15 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:18:22 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 26
+[30-May-2023 20:18:22 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:18:36 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 26
+[30-May-2023 20:18:36 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:19:11 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:19:11 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:20:30 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:20:30 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:21:16 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:21:16 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:22:07 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:22:07 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:22:19 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:22:19 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:22:51 Europe/Minsk] PHP Warning:  Undefined variable $image_path in /var/www/test/setHeader.php on line 20
+[30-May-2023 20:22:51 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:22:51 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:23:26 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:23:26 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:24:25 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:24:25 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:24:42 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:24:42 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:24:45 Europe/Minsk] PHP Warning:  Undefined variable $name in /var/www/test/setHeader.php on line 24
+[30-May-2023 20:24:45 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:25:50 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 20:25:55 Europe/Minsk] PHP Warning:  Undefined array key "receiver" in /var/www/test/index.php on line 69
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  Undefined variable $target_file in /var/www/test/uploadAvatar.php on line 19
+[30-May-2023 21:03:50 Europe/Minsk] PHP Deprecated:  pathinfo(): Passing null to parameter #1 ($path) of type string is deprecated in /var/www/test/uploadAvatar.php on line 19
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  Undefined variable $fileLabel in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  Undefined array key "" in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  move_uploaded_file(Pictures/avatars/polka_avatar.): Failed to open stream: Permission denied in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:03:50 Europe/Minsk] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php4GnBK9&quot; to &quot;Pictures/avatars/polka_avatar.&quot; in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:04:24 Europe/Minsk] PHP Warning:  Undefined variable $fileLabel in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:04:24 Europe/Minsk] PHP Warning:  Undefined array key "" in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:04:24 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/uploadAvatar.php on line 23
+[30-May-2023 21:04:24 Europe/Minsk] PHP Warning:  move_uploaded_file(Pictures/avatars/polka_avatar.): Failed to open stream: Permission denied in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:04:24 Europe/Minsk] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpkeuqFU&quot; to &quot;Pictures/avatars/polka_avatar.&quot; in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:06:46 Europe/Minsk] PHP Warning:  move_uploaded_file(Pictures/avatars/polka_avatar.png): Failed to open stream: Permission denied in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:06:46 Europe/Minsk] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpDzjZex&quot; to &quot;Pictures/avatars/polka_avatar.png&quot; in /var/www/test/uploadAvatar.php on line 33
+[30-May-2023 21:09:50 Europe/Minsk] PHP Warning:  Undefined array key "fileToUpload" in /var/www/test/uploadAvatar.php on line 34
+[30-May-2023 21:09:50 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in /var/www/test/uploadAvatar.php on line 34
+[30-May-2023 21:09:50 Europe/Minsk] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /var/www/test/uploadAvatar.php on line 34
+[31-May-2023 11:01:32 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 19
+[31-May-2023 11:01:34 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 19
+[31-May-2023 13:06:45 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 23
+[31-May-2023 13:06:52 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 23
+[31-May-2023 17:16:13 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'visit_time' in 'field list' in /var/www/test/index.php:28
+Stack trace:
+#0 /var/www/test/index.php(28): mysqli->query()
+#1 {main}
+  thrown in /var/www/test/index.php on line 28
+[31-May-2023 18:00:06 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:02:34 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:02:38 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:02:58 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:03:00 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:07:40 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:07:43 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:07:47 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:07:49 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:09:39 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:09:51 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:10:01 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
+[31-May-2023 18:10:06 Europe/Minsk] PHP Warning:  Undefined variable $command in /var/www/test/setChat.php on line 25
